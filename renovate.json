@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "@nuxtjs"
+  ],
+  "baseBranches": [
+    "main"
+  ],
+  "rangeStrategy": "pin",
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "snyk"
+      ],
+      "groupName": "snyk"
+    },
+    {
+      "packageNames": [
+        "node"
+      ],
+      "major": {
+        "enabled": true
+      },
+      "separateMultipleMajor": true,
+      "allowedVersions": "^16"
+    }
+  ]
+}
