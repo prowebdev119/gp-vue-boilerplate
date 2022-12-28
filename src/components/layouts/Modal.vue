@@ -7,6 +7,7 @@
     >
       <template #container>
         <div class="lost-flex-container">
+            v-if="closeButton"
             class="close"
             @click="close"
           >
