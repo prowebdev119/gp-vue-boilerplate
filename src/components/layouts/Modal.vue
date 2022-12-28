@@ -7,15 +7,6 @@
     >
       <template #container>
         <div class="lost-flex-container">
-          <button
-            v-if="closeButton"
-            class="close"
-            @click="close"
-          >
-            <i>
-              <svg-icon-close />
-            </i>
-          </button>
           <div class="content">
             <slot />
           </div>
