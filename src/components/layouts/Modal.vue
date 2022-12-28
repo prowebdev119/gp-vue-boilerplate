@@ -7,6 +7,7 @@
     >
       <template #container>
         <div class="lost-flex-container">
+            class="close"
             @click="close"
           >
             <i>
