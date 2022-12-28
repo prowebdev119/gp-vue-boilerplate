@@ -7,6 +7,7 @@
     >
       <template #container>
         <div class="lost-flex-container">
+          </button>
           <div class="content">
             <slot />
           </div>
