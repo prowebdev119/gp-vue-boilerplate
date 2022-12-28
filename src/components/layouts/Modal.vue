@@ -7,6 +7,7 @@
     >
       <template #container>
         <div class="lost-flex-container">
+            @click="close"
           >
             <i>
               <svg-icon-close />
