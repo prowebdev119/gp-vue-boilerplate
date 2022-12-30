@@ -9,7 +9,6 @@
       <div>
         <slot v-bind="{progress}">
           <div class="example-container">
-          </div>
         </slot>
       </div>
     </div>
